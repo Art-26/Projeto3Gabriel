@@ -53,7 +53,7 @@ public class Benchmark {
         }
 
         double media = calcularMedia(tempos);
-        double desvioPadrão = calcularDesvioPadrao(tempos, media);
+        double desvioPadrao = calcularDesvioPadrao(tempos, media);
 
         System.out.printf("%-40s | Média: %10.4f ms | Desvio Padrão: %10.4f ms%n", nome, media, desvioPadrao);
     }
